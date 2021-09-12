@@ -2,7 +2,7 @@ const { findMinMaxMean } = require('./index')
 
 describe('findMinMaxMean', () => {
 
-    test('Should return corrent output when receive array set 01', () => {
+    test('Should return correct output when receive array set 01', () => {
         const input = [9, 2, -3, 0, 5, 11, 19, 2, 1]
         const result = findMinMaxMean(input)
 
