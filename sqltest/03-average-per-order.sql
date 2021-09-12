@@ -1,0 +1,1 @@
+select (select sum(od.unitprice * od.quantity) from orderdetails od) / (select count(id) from orderdetails od2);
